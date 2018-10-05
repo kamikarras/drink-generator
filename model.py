@@ -13,6 +13,7 @@ class Mix(db.Model):
     mix_id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     ingredient = db.Column(db.String(64), nullable=False)
     letter = db.Column(db.String(1), nullable=False)
+    alcohol = db.Column(db.Boolean)
 
     def __repr__(self):
         """displays mix"""
