@@ -1,15 +1,18 @@
 {% extends "base.html" %}
 {% block content %}
-
-<p>Enter Name</p>
+<h1>Generate a drink</h1>
+<h2>Enter Name</h2>
 <form action="/" method="POST">
     <input type="text" name="name"><br>
     <input type="submit">
 </form>
+{%if ingredients %}
+<h3>The {{name}}</h3>
 <ul>
 {% for ingredient in ingredients %}
 <li>{{ingredient}}</li>
 {% endfor %}
 </ul>
+{% endif %}
 
 {% endblock %}

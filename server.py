@@ -17,15 +17,22 @@ def show_drink():
     """displays the drink"""
     name = request.form.get('name')
     ingredients = []
+    vowels = 0
     for letter in name:
         if letter.isalpha():
             letter = letter.upper()
-            mix = Mix.query.filter(Mix.letter==letter).first()
-            ingredients.append(mix.ingredient)
+            if letter in "AEIUOY" and vowels > 0:
+                ingredients.append("Ice")
+            else:
+                mix = Mix.query.filter(Mix.letter==letter).first()
+                ingredients.append(mix.ingredient)
+                if letter in "AEIUOY":
+                    vowels += 1
     ingredients = set(ingredients)
 
     return render_template("homepage.html",
-                            ingredients=ingredients)
+                            ingredients=ingredients,
+                            name=name)
 
 
 if __name__ == "__main__":
