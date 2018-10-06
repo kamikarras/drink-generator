@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400i,700');
+*{
+    font-family: 'Roboto Mono', monospace;
+}
+body {
+    background-image: linear-gradient(lightBlue, pink);
+    height: 100vh;
+}
+
+.intro{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+h2 {
+    font-size: 20px;
+}
+h3 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.results{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.user-name input[type=text]{
+    width: auto;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    border-bottom: 3px solid black;
+    width: 40vw;
+    font-size: 40px;
+    text-align: center;
+}
+
+.user-name input[type=submit]{
+    border: 3px solid black;
+    background-color: pink;
+    width: 100px;
+    height: 40px;
+}
+
+img {
+    width: 200px;
+    display: inline-block;
+}
+
+.drink-mix {
+    display: inline-block;
+    vertical-align: top;
+}
+.enter-name{
+    width: 100%;
+    text-align: center;
+}
+
+ul {
+    text-align: left;
+    font-size: 20px;
+}
