@@ -2,9 +2,9 @@
 *{
     font-family: 'Roboto Mono', monospace;
 }
-body {
+html {
     background-image: linear-gradient(lightBlue, pink);
-    height: 100vh;
+    min-height: 100%;
 }
 
 .intro{
@@ -59,4 +59,10 @@ img {
 ul {
     text-align: left;
     font-size: 20px;
+}
+
+a{
+    position: absolute;
+    top: 0;
+    right: 10px;
 }
