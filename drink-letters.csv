@@ -1,26 +1,26 @@
 A, Rum,TRUE
-E,Vodka,TRUE
-I,Tequila,TRUE
-O,Brandy,TRUE
-U ,Gin,TRUE
-Y,Whiskey,TRUE
-K,Triple Sec/Orange liqueur,TRUE
-N,Maraschino liqueur,TRUE
-M,Peach schnapps,TRUE
-L,Coffee liqueur,TRUE
-T,Creme de cacao,TRUE
 B,Simple syrup,
 C,Lime juice,
-V,Lemon juice,
+D,Pineapple juice,
+E,Vodka,TRUE
 F,Club soda,
 G,Salt,
 H,Sweet vermouth,
+I,Tequila,TRUE
 J,Grenadine,
+K,Triple Sec/Orange liqueur,TRUE
+L,Coffee liqueur,TRUE
+M,Peach schnapps,TRUE
+N,Maraschino liqueur,TRUE
+O,Brandy,TRUE
 P,Lime,
-R,Cherry,
-Z,Cranberry juice,
-S,Sugar,
-Q,Orange juice,
-W,Cream,
-D,Pineapple juice,
 Q,Mint,
+R,Cherry,
+S,Sugar,
+T,Creme de cacao,TRUE
+U ,Gin,TRUE
+V,Lemon juice,
+W,Cream,
+X,Orange juice,
+Y,Whiskey,TRUE
+Z,Cranberry juice,
