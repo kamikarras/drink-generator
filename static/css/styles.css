@@ -61,10 +61,18 @@ ul {
     font-size: 20px;
 }
 
-a{
+.links{
     position: absolute;
     top: 0;
     right: 10px;
+}
+a {
+    display: inline-block;
+}
+
+.fb-share-button {
+    margin: auto;
+    text-align: center;
 }
 
 @media screen and (orientation: portrait) and (min-width: 600px) {
@@ -89,18 +97,26 @@ a{
     h1 {
         font-size: 60px;
     }
+
    .results{
     font-size: 50px;
    }
-   a {
+
+   .links {
     display: block;
     position: relative;
     font-size: 40px;
     text-align: center;
    }
+
+   a {
+    display: inline-block;
+   }
+
    li{
     font-size: 40px;
    }
+
    h3 {
     font-size: 60px;
    }
