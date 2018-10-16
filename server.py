@@ -5,16 +5,16 @@ from model import app, Mix, connect_to_db, db
 app = Flask(__name__)
 
 
-@app.route('/', methods=["GET"])
+@app.route('/')
 def show_home():
     """shows the hompage"""
 
     return render_template("homepage.html")
 
-@app.route('/', methods=["POST"])
+@app.route('/results')
 def show_drink():
     """displays the drink"""
-    name = request.form.get('name')
+    name = request.args.get('name')
     ingredients = []
     vowels = 0
     for letter in name:
